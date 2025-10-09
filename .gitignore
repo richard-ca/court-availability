@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+court_availability/
+.venv/
+
+# Streamlit cache
+.streamlit/
+
+# Jupyter / system
+.ipynb_checkpoints/
+.DS_Store
