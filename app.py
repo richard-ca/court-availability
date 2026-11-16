@@ -17,7 +17,7 @@ st.set_page_config(page_title="Beachvolleybal Availability", layout="wide")
 st.title("🏐 Beachvolleybal Availability (30-min blocks)")
 
 chosen_date = st.date_input("Date", value=date.today())
-indoor_only = st.checkbox("Indoor only", True)
+indoor_only = st.checkbox("Indoor only", False)
 name_filter = st.text_input("Name filter", "Beachvolleybal")
 
 @st.cache_data(ttl=300)
